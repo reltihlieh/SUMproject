@@ -29,6 +29,14 @@ public class OrderHistory extends javax.swing.JPanel {
         jScrollPane1 = new javax.swing.JScrollPane();
         jTable1 = new javax.swing.JTable();
         jSpinner1 = new javax.swing.JSpinner();
+        jButton1 = new javax.swing.JButton();
+        jSpinner4 = new javax.swing.JSpinner();
+        jSpinner5 = new javax.swing.JSpinner();
+        jLabel1 = new javax.swing.JLabel();
+        jLabel2 = new javax.swing.JLabel();
+        jLabel3 = new javax.swing.JLabel();
+        jButton2 = new javax.swing.JButton();
+        jLabel4 = new javax.swing.JLabel();
 
         setLayout(null);
 
@@ -46,16 +54,65 @@ public class OrderHistory extends javax.swing.JPanel {
         jScrollPane1.setViewportView(jTable1);
 
         add(jScrollPane1);
-        jScrollPane1.setBounds(262, 47, 540, 552);
+        jScrollPane1.setBounds(370, 40, 540, 520);
 
         jSpinner1.setFont(new java.awt.Font("Arial", 1, 18)); // NOI18N
         jSpinner1.setModel(new javax.swing.SpinnerDateModel());
         add(jSpinner1);
-        jSpinner1.setBounds(10, 47, 230, 30);
+        jSpinner1.setBounds(100, 40, 80, 30);
+
+        jButton1.setText("Find");
+        add(jButton1);
+        jButton1.setBounds(10, 80, 260, 30);
+
+        jSpinner4.setFont(new java.awt.Font("Arial", 1, 18)); // NOI18N
+        jSpinner4.setModel(new javax.swing.SpinnerDateModel());
+        add(jSpinner4);
+        jSpinner4.setBounds(190, 40, 80, 30);
+
+        jSpinner5.setFont(new java.awt.Font("Arial", 1, 18)); // NOI18N
+        jSpinner5.setModel(new javax.swing.SpinnerDateModel());
+        add(jSpinner5);
+        jSpinner5.setBounds(10, 40, 80, 30);
+
+        jLabel1.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel1.setText("Year");
+        add(jLabel1);
+        jLabel1.setBounds(10, 20, 60, 17);
+
+        jLabel2.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        jLabel2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel2.setText("Month");
+        add(jLabel2);
+        jLabel2.setBounds(100, 20, 60, 17);
+
+        jLabel3.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        jLabel3.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel3.setText("Day");
+        add(jLabel3);
+        jLabel3.setBounds(190, 20, 60, 17);
+
+        jButton2.setText("Print List");
+        add(jButton2);
+        jButton2.setBounds(820, 570, 90, 30);
+
+        jLabel4.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        jLabel4.setText("Order List");
+        add(jLabel4);
+        jLabel4.setBounds(370, 20, 70, 17);
     }// </editor-fold>//GEN-END:initComponents
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton jButton1;
+    private javax.swing.JButton jButton2;
+    private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabel4;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JSpinner jSpinner1;
+    private javax.swing.JSpinner jSpinner4;
+    private javax.swing.JSpinner jSpinner5;
     private javax.swing.JTable jTable1;
     // End of variables declaration//GEN-END:variables
 }
