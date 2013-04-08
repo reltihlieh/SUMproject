@@ -7,6 +7,9 @@
 .metadata
 bin/
 tmp/
+nbproject/private/
+nbproject/genfiles.properties
+nbproject/build-impl.xml
 *.tmp
 *.bak
 *.swp
