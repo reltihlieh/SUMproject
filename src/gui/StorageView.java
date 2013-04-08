@@ -26,35 +26,15 @@ public class StorageView extends javax.swing.JPanel {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jScrollPane1 = new javax.swing.JScrollPane();
-        jTable1 = new javax.swing.JTable();
         jComboBox1 = new javax.swing.JComboBox();
         jButton1 = new javax.swing.JButton();
         jScrollPane2 = new javax.swing.JScrollPane();
         jTable2 = new javax.swing.JTable();
-        jLabel1 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
         jButton2 = new javax.swing.JButton();
         jButton3 = new javax.swing.JButton();
 
         setLayout(null);
-
-        jTable1.setModel(new javax.swing.table.DefaultTableModel(
-            new Object [][] {
-                {null, null, null, null},
-                {null, null, null, null},
-                {null, null, null, null},
-                {null, null, null, null}
-            },
-            new String [] {
-                "Title 1", "Title 2", "Title 3", "Title 4"
-            }
-        ));
-        jTable1.setCellSelectionEnabled(true);
-        jScrollPane1.setViewportView(jTable1);
-
-        add(jScrollPane1);
-        jScrollPane1.setBounds(690, 40, 430, 580);
 
         jComboBox1.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Group", "Item 2", "Item 3", "Item 4" }));
         add(jComboBox1);
@@ -80,13 +60,9 @@ public class StorageView extends javax.swing.JPanel {
         add(jScrollPane2);
         jScrollPane2.setBounds(240, 40, 430, 580);
 
-        jLabel1.setText("Product");
-        add(jLabel1);
-        jLabel1.setBounds(240, 20, 50, 14);
-
         jLabel2.setText("Item");
         add(jLabel2);
-        jLabel2.setBounds(690, 20, 22, 14);
+        jLabel2.setBounds(240, 20, 22, 14);
 
         jButton2.setText("Create New Product");
         add(jButton2);
@@ -101,11 +77,8 @@ public class StorageView extends javax.swing.JPanel {
     private javax.swing.JButton jButton2;
     private javax.swing.JButton jButton3;
     private javax.swing.JComboBox jComboBox1;
-    private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
-    private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JScrollPane jScrollPane2;
-    private javax.swing.JTable jTable1;
     private javax.swing.JTable jTable2;
     // End of variables declaration//GEN-END:variables
 }
